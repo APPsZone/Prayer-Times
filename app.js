@@ -30,7 +30,8 @@ function success(position) {
 }
 
 function error() {
-	alert("Cannot accsess the position.");
+	// default coordinate for prayer times (latitude and longitude)
+	prayerTimes("6.2088", "106.8456");
 }
 
 function userLocation() {
